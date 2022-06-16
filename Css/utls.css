@@ -1,0 +1,14 @@
+.text-footer{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    background-color:var(--main-bg-color);
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 5px 10px;
+}

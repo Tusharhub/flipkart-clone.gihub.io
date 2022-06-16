@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@500&family=Roboto+Mono:wght@400;600&display=swap");
+
+:root {
+  --main-bg-color: #287aff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+header {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 88px;
+  padding: 0 23px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  height: 58px;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  font-weight: 100;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 34vw;
+  height: 18px;
+  margin: 0 9px 0 23px;
+  padding: 0 12px;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+  overflow: hidden;
+}
+nav {
+  display: flex;
+}
+.slider {
+  margin: 12px auto;
+  width: 75vw;
+  overflow: hidden;
+}
+
+.card {
+  max-width: 91vw;
+  margin: 28px auto;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 23px;
+}
+.cards {
+  display: flex;
+}
+.text-center {
+  text-align: center;
+}
+.m-2 {
+  margin: 26px 0px;
+}
+.m-1 {
+  margin: 1px 0px;
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
